@@ -1,7 +1,7 @@
 # statuspage-updater
 Checks the availability of a website and uploads the results to statuspage.io.
 
-The very narrow scope of this project is to monitor a rasberry pi at my house running an nginx server. This program will attempt to reach my web server and upload the results to statuspage.io to see if my ISP is meeting their SLAs (not that they have any with me). The instructions to setup the webserver are here. https://github.com/fuele/statuspage
+The very narrow scope of this project is to monitor a rasberry pi at my house running an nginx server. This program will attempt to reach my web server and upload the results to statuspage.io to see if my ISP is meeting their SLAs (not that they have any with me). The instructions to setup the webserver are here. https://github.com/fuele/statuspage-chart
 
 In this case we are only worried about internet connectivity and not website connectivity, so any response from the web server will be marked as a success.
 
